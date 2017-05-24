@@ -180,6 +180,9 @@
                                             <constraint firstAttribute="width" constant="31" id="bhE-xs-rRw"/>
                                         </constraints>
                                         <state key="normal" image="back"/>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="SPK-Yv-jcJ" eventType="touchUpInside" id="TTd-nL-GuB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -384,8 +387,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jsc-TR-Ilf">
                                 <rect key="frame" x="0.0" y="390" width="320" height="30"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Evolution: Venasuar LVL 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHB-1m-KPW">
-                                        <rect key="frame" x="0.0" y="5" width="320" height="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Next Evolution: Venasuar LVL 32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHB-1m-KPW">
+                                        <rect key="frame" x="0.0" y="4" width="320" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="tUG-dd-xDj"/>
                                         </constraints>
@@ -432,7 +435,18 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="attackLbl" destination="t22-fm-6Hn" id="Rud-PF-ffb"/>
+                        <outlet property="currentEvoImg" destination="yFF-9s-owG" id="nur-Z5-xXt"/>
+                        <outlet property="defenseLbl" destination="7Qd-fB-iJ3" id="5gc-yG-2ps"/>
+                        <outlet property="descriptionLbl" destination="D4F-ze-JUr" id="e4s-Wm-K1U"/>
+                        <outlet property="evoLbl" destination="aHB-1m-KPW" id="jAM-Pa-s4r"/>
+                        <outlet property="heightLbl" destination="xHd-BF-PKY" id="xVq-y3-h9P"/>
+                        <outlet property="mainImg" destination="dYZ-Ds-DC1" id="8gn-iO-lXz"/>
                         <outlet property="nameLbl" destination="yvw-gS-jlq" id="Qfz-2J-i7c"/>
+                        <outlet property="nextEvoImg" destination="RML-YX-ZeG" id="XvC-zp-mXF"/>
+                        <outlet property="pokedexLbl" destination="98B-HW-Gaz" id="Cyd-1H-HBE"/>
+                        <outlet property="typeLbl" destination="kW2-dh-b8N" id="1TQ-BL-5Xf"/>
+                        <outlet property="weightLbl" destination="fQ2-SF-qTc" id="r8W-Gd-33a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wSL-3L-jPS" userLabel="First Responder" sceneMemberID="firstResponder"/>

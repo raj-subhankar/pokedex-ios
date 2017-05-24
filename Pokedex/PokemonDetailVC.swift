@@ -29,8 +29,20 @@ class PokemonDetailVC: UIViewController {
         super.viewDidLoad()
 
         nameLbl.text = pokemon.name
+        
+        pokemon.downloadPokemonDetail {
+            self.updateUI()
+        }
     }
 
+    func updateUI() {
+        attackLbl.text = pokemon.attack
+        defenseLbl.text = pokemon.defense
+        heightLbl.text = pokemon.height
+        weightLbl.text = pokemon.weight
+         
+    }
+    
     @IBAction func backBtnPressed(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }

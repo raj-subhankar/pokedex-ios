@@ -21,6 +21,7 @@
 		7CB74CE61EC83776006B84CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CB74CE41EC83776006B84CD /* LaunchScreen.storyboard */; };
 		7CB74CEE1EC83AF0006B84CD /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7CB74CED1EC83AF0006B84CD /* pokemon.csv */; };
 		7CB74CF11EC83BB0006B84CD /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB74CF01EC83BB0006B84CD /* Pokemon.swift */; };
+		7CD74D511ED5E2E000E8A85E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD74D501ED5E2E000E8A85E /* Constants.swift */; };
 		8A91AB5565AB66FAA2361EA9 /* Pods_Pokedex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B56DD74D36BD22C16D5E64 /* Pods_Pokedex.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		7CB74CE71EC83776006B84CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CB74CED1EC83AF0006B84CD /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		7CB74CF01EC83BB0006B84CD /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		7CD74D501ED5E2E000E8A85E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D1B56DD74D36BD22C16D5E64 /* Pods_Pokedex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				7C0130511ED0007A00F08475 /* csv.swift */,
+				7CD74D501ED5E2E000E8A85E /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				7CA07F4D1ED34E390076C8C4 /* PokemonDetailVC.swift in Sources */,
 				7CB74CD91EC83776006B84CD /* AppDelegate.swift in Sources */,
 				7C0130501ECF2EEB00F08475 /* PokeCell.swift in Sources */,
+				7CD74D511ED5E2E000E8A85E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
